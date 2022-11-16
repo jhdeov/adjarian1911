@@ -3,11 +3,10 @@
 \usepackage{polyglossia}
 
  \usepackage{graphicx}
-
-% \setmainfont[Scale=1]{Times New Roman}
+\usepackage[linguistics]{forest}
 
   \setmainfont[Scale= 0.8,  Script=Armenian]{DejaVuSans}
-
+% \setmainfont[Scale=1]{Times New Roman}
 
 % \setotherlanguage{english}
 % \newfontfamily\englishfont{DejaVuSans}
@@ -43,6 +42,8 @@
 
  \usepackage{subcaption}%subfigures
 \usepackage{float}
+%
+
 
 
 \usepackage{wasysym}
@@ -87,6 +88,17 @@
 \newfontfamily\arabicfont{DejaVu Sans}[Script=Arabic]
 \newcommand{\textarab}[1]{{\arabicfont \setArabic      \footnotesize #1}}
 
+
+
+
+% spacing in TOC
+\usepackage{tocloft}% http://ctan.org/pkg/tocloft
+\setlength{\cftsubsecnumwidth}{4em}% 
+\setlength{\cftsubsubsecnumwidth}{5em}% 
+\setlength{\cftparanumwidth}{6em}% 
+\setlength{\cftsubparanumwidth}{7em}% 
+\makeatother
+
 	\rfoot{\thepage}	%page number in right foot
 	\cfoot{}
 % 	\rhead{Hossep Dolatian}	%right header
@@ -117,10 +129,10 @@ The final version  will hopefully be correct enough to comfortably publish, even
 \tableofcontents
 
 
- 
+
  \input{parts/0Hossep/conrefs}
 % \input{parts/0Hossep/conventions}
- \input{parts/1Adjarian/done.tex}
+   \input{parts/1Adjarian/done.tex}
 \input{parts/0Hossep/names.tex}
  
 \bibliographystyle{sp.bst}		% S\&P bibliography style
