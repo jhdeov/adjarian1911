@@ -7,3 +7,4 @@
 *.bbl
 *.blg
 *.synctex(busy)
+.DS_Store
