@@ -5,8 +5,6 @@ The current version has all of Adjarian's main prose and data, along with my com
 
 The next version will do the following:
 * correct or finish TODO statements,
-*  add my own introduction, 
-* move some of notes from Adjarian's prose into my own introduction, and
-*  double-check the translation's correctness.
+* double-check the translation's correctness.
 
 The final version  will hopefully be correct enough to comfortably publish, eventually. 
