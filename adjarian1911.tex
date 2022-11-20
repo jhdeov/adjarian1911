@@ -5,8 +5,8 @@
  \usepackage{graphicx}
 \usepackage[linguistics]{forest}
 
-  \setmainfont[Scale= 0.8,  Script=Armenian]{DejaVuSans}
-% \setmainfont[Scale=1]{Times New Roman}
+%  \setmainfont[Scale= 0.8,  Script=Armenian]{DejaVuSans}
+ \setmainfont[Scale=1]{Times New Roman}
 
 % \setotherlanguage{english}
 % \newfontfamily\englishfont{DejaVuSans}
@@ -49,10 +49,18 @@
 \usepackage{wasysym}
 \newcommand{\newpagecheat}{\newpage}
 
-\newcommand{\mydoT}[1]{#1\kern -.2em \char"0323\relax} % to get underdot
+\newcommand{\mydoT}[1]{#1\kern -.2em \char0323\relax} % to get underdot
 \pagestyle{headings}
 
 \usepackage{ulem} % strikethrough 
+
+ \newfontfamily\hy 
+[Scale = 0.8, Script = Armenian]{DejaVuSans}
+%
+
+\newcommand{\armenian}[1]{{\hy #1}}
+\newcommand{\zzzzzzzz}[1]{{\hy #1}}  % this is to force armenian bibliographies to be last + ordered in the bibliography
+
 
 	\newfontfamily\hyg
 [Scale=MatchLowercase, 
@@ -112,6 +120,8 @@
 \begin{document} 
 
 
+
+
 !!!!! This is an ongoing translation of \citet{Adjarian-1911-DialectologyBook}. The current version has all of Adjarian's prose and data, along with my commentary. It has been taking me a while to get this far, so I figure it's more practical to make my current version available as I continue to work on it.
 
 The next version will do the following:
@@ -122,6 +132,7 @@ The next version will do the following:
 \end{itemize} 
 
 The final version  will hopefully be correct enough to comfortably publish, eventually. 
+
 
 
 %{
@@ -148,9 +159,9 @@ The final version  will hopefully be correct enough to comfortably publish, even
 \tableofcontents
 
 \input{parts/0Hossep/conrefs}
-\input{parts/0Hossep/conventions}
-\input{parts/1Adjarian/done.tex}
-\input{parts/0Hossep/names.tex}
+\input{parts/0Hossep/conventionsAdapted}
+\input{parts/1Adjarian/doneAdapted}
+\input{parts/0Hossep/namesAdapted}
  
 \bibliographystyle{sp.bst}		% S\&P bibliography style
 %S\&P, an LSA publication, meets the LSA guidelines. 
@@ -158,7 +169,7 @@ The final version  will hopefully be correct enough to comfortably publish, even
 %and get the bst at: https://raw.ɡithubusercontent.com/semprag/tex/master/sp.bst 
 %If using the sp.bst, the following command turns your DOIs into links
 \newcommand{\doi}[1]{\href{http://dx.doi.org/#1}{http://dx.doi.org/#1}}	%modified from sp.cls
-\bibliography{adjarianBib}			% your bib file
+\bibliography{adjarianBibAdapted}			% your bib file
 
 
 \end{document}
