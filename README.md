@@ -3,8 +3,6 @@ This is an ongoing translation of Adjarian 1911 "Armenian dialectology", written
 
 The current version has all of Adjarian's main prose and data, along with my commentary. It has been taking me a while to get this far, so I figure it's more practical to make my current version available as I continue to work on it.
 
-The next version will do the following:
-* correct or finish TODO statements,
-* double-check the translation's correctness.
+The next version will involve rereading Adjarian 1911 to double-check the translation's correctness.
 
 The final version  will hopefully be correct enough to comfortably publish, eventually. 
