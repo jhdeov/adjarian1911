@@ -1,0 +1,49 @@
+\newcommand*{\orcid}{}
+
+
+
+\setcounter{tocdepth}{5} % need approval for this
+
+
+ \newfontfamily\hy 
+[Scale = 0.8, Script = Armenian]{DejaVuSans.ttf}
+%
+
+\newcommand{\armenian}[1]{{\hy #1}}
+\newcommand{\zzzzzzzz}[1]{{\hy #1}}  % this is to force armenian bibliographies to be last + ordered in the bibliography
+
+\newfontfamily\hyg
+[Scale=MatchLowercase, 
+]{NotoSerifArmenian-Regular.ttf}
+\newcommand{\armeniang}[1]{{\hyg #1}} % for rare dialectological symbols
+
+\newtheorem{adjarianpage}{Original page number}
+
+
+\newfontfamily\arabicfont[Script=Arabic,ItalicFont=*,Scale=1.4]{ScheherazadeRegOT_Jazm.ttf}
+\newcommand{\textarab}[1]{{\RL{\arabicfont #1}}}
+
+
+
+% conrefs
+\newcommand{\translatorHD}[1]{\textit{HD: #1}}
+% conrefs
+\newcommand{\paradigmExplanation}{
+	\translatorHD{Adjarian placed the entire paradigm of this verb into a single table.  We break it down with a morpheme segmentation and gloss. We contrast against SEA and/or SWA. The morpheme segmentation is my own, based on examining the entire paradigm and contrasting against SEA and/or SWA.
+		\\
+		Note that this verb is treated as the default type of verb. It is the reflex of the conjugation class that had a theme vowel /e/ in Classical Armenian. Such verbs are also the default type of verb in SEA and SWA. Philological work calls it the first class; a more mnemonic name is  the E-Class. }}
+
+\newcommand{\paradigmExplanationAClass}{
+	\translatorHD{Adjarian placed the entire paradigm of this verb into a single table.  We break it down with a morpheme segmentation and gloss. We contrast against SEA and/or SWA. The morpheme segmentation is my own, based on examining the entire paradigm and contrasting against SEA and/or SWA.
+		\\
+		This verb is the reflex of the conjugation class that had a theme vowel /ɑ/ in Classical Armenian. Philological work calls it the third class; a more mnemonic name is  the A-Class. }}
+
+\newcommand{\litoverview}{
+	\translatorHD{I do not translate or give bibliography entries for these sources because they're rather difficult to systematically track down.}
+}
+
+
+\newcommand{\sampleoverview}{
+	\translatorHD{I do not translate, gloss, or re-transcribe the text samples. Some of them are given in orthography, and not the Armenian dialectological transcription. And because I don't speak this dialect, I don't understand the text samples well enough to translate or annotate. In some cases, the printed letter was unclear so I rendered it as `X'. }}
+
+
