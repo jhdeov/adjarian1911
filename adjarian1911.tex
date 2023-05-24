@@ -1,7 +1,6 @@
-% !TeX document-id = {d1edf156-e198-4bbd-8563-6feaf995f6d5}
+% !TeX document-id = {c361a150-2cfc-4aca-b3ec-b8db4cf93874}
 % !TeX TXS-program:bibliography = txs:///biber
 % !TeX program = xelatex
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%     Language Science Press Master File       %%%
@@ -34,21 +33,25 @@ draftmode,
 \begin{document}
 
 \input{localcommands.tex}
+
+
 \maketitle
 \frontmatter
-\currentpdfbookmark{Contents }{name} % adds a PDF bookmark
-{\sloppy\tableofcontents}
-  
+\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
 
+%{\sloppy\tableofcontents}
+\setcounter{tocdepth}{5} % need approval for this
+{\sloppy\tableofcontents}
 %% remove the % in the following lines if your book has these elements
   \include{chapters/preface}
-  \include{chapters/acknowledgments}
-  \include{chapters/abbreviations}
+\include{chapters/acknowledgments}
+\include{chapters/abbreviations}
 \mainmatter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%             Chapters                         %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 
@@ -58,6 +61,7 @@ draftmode,
 \include{chapters/ke}
 \include{chapters/el}
 \include{chapters/names}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%             Backmatter                       %%%

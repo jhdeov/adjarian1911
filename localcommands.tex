@@ -1,16 +1,20 @@
 \newcommand*{\orcid}{}
-
-
-
-\setcounter{tocdepth}{5} % need approval for this
-
+% \newfontfamily\hy
+%[Scale=MatchLowercase,
+%BoldFont = DejaVuSansMono-Bold.ttf ,
+%SlantedFont = DejaVuSansMono-Oblique.ttf ,
+%BoldSlantedFont = DejaVuSansMono-BoldOblique.ttf
+%]{DejaVuSansMono.ttf}
 
  \newfontfamily\hy 
 [Scale = 0.8, Script = Armenian]{DejaVuSans.ttf}
-%
+
+
 
 \newcommand{\armenian}[1]{{\hy #1}}
 \newcommand{\zzzzzzzz}[1]{{\hy #1}}  % this is to force armenian bibliographies to be last + ordered in the bibliography
+\newcommand{\newpagecheat}{\newpage}
+
 
 \newfontfamily\hyg
 [Scale=MatchLowercase, 
@@ -23,7 +27,12 @@
 \newfontfamily\arabicfont[Script=Arabic,ItalicFont=*,Scale=1.4]{ScheherazadeRegOT_Jazm.ttf}
 \newcommand{\textarab}[1]{{\RL{\arabicfont #1}}}
 
+%to get arabic
+%\def\setArabic{\pagedir TRT \bodydir TRT \pardir TRT \textdir TRT}
+%\def\setLatin {\pagedir TLT \bodydir TLT \pardir TLT \textdir TLT}
 
+%\newfontfamily\arabicfont{DejaVu Sans}[Script=Arabic]
+%\newcommand{\arabiccheat}[1]{{\arabicfont \setArabic      \footnotesize #1}}
 
 % conrefs
 \newcommand{\translatorHD}[1]{\textit{HD: #1}}
