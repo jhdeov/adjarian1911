@@ -2474,7 +2474,8 @@
     <bcf:citekey order="106">Patkanian-1869-RussianDialects</bcf:citekey>
     <bcf:citekey order="107">Patkanian-1875-RussianDialects</bcf:citekey>
     <bcf:citekey order="108">Sargiants-1883-Agulis</bcf:citekey>
-    <bcf:citekey order="109">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
+    <bcf:citekey order="109">Hanusz-1886-PolishArmenian</bcf:citekey>
+    <bcf:citekey order="109">Hanusz-1889-PhonoPolishArmenian</bcf:citekey>
     <bcf:citekey order="110">Thomson-1887-Karin</bcf:citekey>
     <bcf:citekey order="111">Thomson-1890-Tiflis</bcf:citekey>
     <bcf:citekey order="112">AzgagrakanHandes</bcf:citekey>
@@ -2707,16 +2708,18 @@
     <bcf:citekey order="337">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
     <bcf:citekey order="338">Patkanian-1875-RussianDialects</bcf:citekey>
     <bcf:citekey order="339">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
-    <bcf:citekey order="340">Bazmaveb</bcf:citekey>
-    <bcf:citekey order="341">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
-    <bcf:citekey order="342">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
-    <bcf:citekey order="343">Finck-1907-SpracheRomani</bcf:citekey>
+    <bcf:citekey order="340">Hanusz-1886-PolishArmenian</bcf:citekey>
+    <bcf:citekey order="341">Hanusz-1889-PhonoPolishArmenian</bcf:citekey>
+    <bcf:citekey order="342">Bazmaveb</bcf:citekey>
+    <bcf:citekey order="343">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
     <bcf:citekey order="344">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
-    <bcf:citekey order="345">DolatianEtAl-prep-IranianGrammar</bcf:citekey>
-    <bcf:citekey order="346">Eminian</bcf:citekey>
-    <bcf:citekey order="347">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
-    <bcf:citekey order="348">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
+    <bcf:citekey order="345">Finck-1907-SpracheRomani</bcf:citekey>
+    <bcf:citekey order="346">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
+    <bcf:citekey order="347">DolatianEtAl-prep-IranianGrammar</bcf:citekey>
+    <bcf:citekey order="348">Eminian</bcf:citekey>
     <bcf:citekey order="349">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
+    <bcf:citekey order="350">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
+    <bcf:citekey order="351">Martirosyan-2019-ArmenianDialectsBigVersionRussianJournal</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
